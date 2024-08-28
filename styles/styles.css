@@ -1,0 +1,168 @@
+:root{
+    --text-color: #545454;
+    --divider-color: #292d2d;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: var(--text-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 70px auto;
+    width: 80%;;
+    max-width: 1000px;
+    padding: 0;
+}
+
+hr{
+    color: var(--divider-color);
+}
+
+.divider{
+    width: 90%;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h1{
+    font-size: 48px;
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+h3{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.side-info{
+    width: 35%;
+    margin-left: 30px;
+}
+
+.base-info{
+    width: 65%;
+    margin-left: 80px;
+}
+
+.contact-info{
+    margin-top: 94px;
+    margin-bottom: 48px;
+    margin-left: 40px;
+}
+
+.phone, .email, .github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+img{
+    height: 30px;
+}
+
+.small-text{
+    font-size: 16px;
+    margin: 0;
+}
+
+.tech{
+    margin-left: 40px;
+}
+
+.soft{
+    margin-left: 20px;
+}
+
+.skills{
+    margin-bottom: 48px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-left: -8px;
+}
+
+.about-text{
+    color: #737373;
+}
+
+.degree{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.university{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.study-date{
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+    .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.side-info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.base-info{
+     width: 90%;
+    margin: 0 auto;
+}
+
+hr{
+    width: 90%;
+}
+}
